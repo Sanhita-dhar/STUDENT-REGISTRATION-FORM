@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-align: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+
+}
+.wrapper{
+	width: 100%;
+	padding: 100px 0;
+	background: linear-gradient(to right, #C1DEAE, #1572A1);
+	
+}
+.form-box{
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+	border-radius: 8px;
+
+}
+.form-row{
+	display: flex;
+}
+.form-left, .form-right{
+	flex-basis: 50%;
+
+}
+.right-content{
+	padding: 40px;
+}
+.right-content h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+.form-group{
+	margin: 15px 0;
+	
+}
+.form-control{
+	width: 95%;
+	display: block;
+	padding: 16px 8px;
+	
+}
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.f-b-42{
+	flex-basis: 43%;
+}
+.form-control:focus{
+	outline-color: red;
+	
+}
+.form-control:focus::placeholder{
+	color: red;
+
+}
+.my-1{
+	margin: 32px 0;
+}
+.from-group span{
+	color: black;
+	margin-right: 32px;
+}
+.radioinput{
+	 margin-left: 15px;
+}
+.f-b-48{
+	flex-basis: 47%;
+}
+.btn{
+	margin-top: 10px;
+    padding: 15px 24px;
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    color: #686868;
+    font-weight: 600;
+    box-shadow: 2px 4px 8px 0px #bbb;
+    margin-left: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+.btn:hover{
+	background-color: yellow;
+}
+.text-right{
+	text-align: right;
+}
